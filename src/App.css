@@ -1,12 +1,21 @@
 .slider{
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-
+.bg{
+  background-color:rgba(131, 210, 255, 0.836);
+}
+.text{
+  position: relative;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .image{
   width: 1000px;
   height: 600px;
@@ -26,7 +35,7 @@
 .left-arrow{
   position: absolute;
   top: 50%;
-  right: 32px;
+  left: 32px;
   font-size: 3rem;
   color: #000;
   z-index: 10;
